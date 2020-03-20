@@ -1,0 +1,5 @@
+security:
+  oauth2:
+    resource:
+      user-info-uri: https://is.eorionsolution.com/oauth2/userinfo?schema=openid
+      prefer-token-info: false

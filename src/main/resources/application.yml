@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: data-helper
+
+sql-info:
+  templates-folder: /Users/eorionx/IdeaProjects/data-helper/src/main/resources/templates
+
+
+data:
+  source1:
+    datasource:
+      driverClassName: com.mysql.jdbc.Driver
+      jdbcUrl: jdbc:mysql://localhost:3306/dipont?useSSL=false
+      username: root
+      password: 12345678
+  source2:
+    datasource:
+      driverClassName: com.mysql.jdbc.Driver
+      jdbcUrl: jdbc:mysql://localhost:3306/local?useSSL=false
+      username: root
+      password: 12345678
